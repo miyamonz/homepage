@@ -77,6 +77,11 @@ i.fab {
     @include mobile {
       font-size: 80px;
     }
+    $len: 4px;
+    $blur: 6px;
+    $red: #ffaeae;
+    $blue: #8f8fff;
+    text-shadow: $len $len $blur $red, -$len $len $blur $blue;
   }
 }
 
